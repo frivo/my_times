@@ -2,16 +2,17 @@ a {
 	color: black;
 }
 
-.header {
+header {
 	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
   	font-family: Verdana;
   	font-size: 14px;
   	font-weight: bold;
-  	align-items: center;
-  	justify-content: space-between;
   	position: fixed;
   	width: 100%;
   	border-bottom: 1px solid black;
+  	background-color: white;
   	height: 80px;
   	z-index: 20;
 }
@@ -32,7 +33,6 @@ a {
 
 .navigation {
 	padding-right: 40px;
-
 }
 
 .navigation span {

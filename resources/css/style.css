@@ -2,6 +2,10 @@ a {
 	color: black;
 }
 
+div {
+	border: 1px solid black;
+}
+
 header {
 	display: flex;
   	align-items: center;
@@ -20,6 +24,7 @@ header {
 .logo {
 	display: flex;
 	align-items: center;
+	flex-grow: 1;
 	padding-left: 30px;
 }
 
@@ -44,48 +49,51 @@ header {
 	display: flex;
 	position: relative;
 	padding-top: 116px;
-	width: 100%;
-}
-
-.main-content div {
-	border: 1px solid black;
+	width: 1232px;
+	margin: 0px auto 78px auto;
 }
 
 .column {
 	display: flex;
 	flex-direction: column;
-	padding-right: 32px;
 }
 
 .column.large {
 	width: 630px;
+	padding-right: 32px;
 }
 
 .column.medium {
 	width: 300px;
+	padding-right: 32px;
 }
 
 .column.small {
 	width: 240px;
+	margin-right: 32px;
 }
 
 .image-story {
 	height: 300px;
+	margin-top: 15px;
 	font-family: Georgia;
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
+	display: flex;
 	text-align: center;
+	justify-content: center;
 }
 
 .main-story .image-story {
 	background-image: url(../images/img-story-main.png);
 	width: 630px;
+	margin-top: 0px;
 	font-size: 40px;
 	text-align: left;
 }
 
-.image-story .img-story-1 {
+.image-story.img-story-1 {
 	background-image: url(../images/img-story-1.png);
 }
 
@@ -95,4 +103,10 @@ header {
 
 .image-story.img-story-3 {
 	background-image: url(../images/img-story-3.png);
+}
+
+.text-story {
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
 }

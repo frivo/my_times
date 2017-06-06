@@ -47,6 +47,7 @@ header {
 
 .content-container {
 	display: flex;
+	justify-content: center;
 	margin: 0 auto 78px auto;
 	padding-top: 116px; 
 	width: 100%;
